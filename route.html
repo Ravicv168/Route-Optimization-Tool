@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Optimization Tool</title>
+    <link rel="stylesheet" href="route.css">
+</head>
+<body>
+    <h1>Route Optimization Tool</h1>
+
+    <div>
+        <label for="start">Start City:</label>
+        <input type="text" id="start" placeholder="e.g., Bengaluru">
+    </div>
+    <div>
+        <label for="end">End City:</label>
+        <input type="text" id="end" placeholder="e.g., Mysuru">
+    </div>
+    <button id="findRoute">Find Shortest Route</button>
+
+    <h2 id="result"></h2>
+
+    <canvas id="graph" width="800" height="600"></canvas>
+
+    <script src="routescript.js"></script>
+</body>
+</html>
