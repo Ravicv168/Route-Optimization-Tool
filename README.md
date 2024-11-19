@@ -6,7 +6,7 @@ Implemented Dijkstra’s Algorithm to solve the single-source shortest path prob
 Instructions to Run the Project:
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/route-optimization-tool.git
+git clone https://github.com/Ravicv168/Route-Optimization-Tool.git
 Open the route.html file in your browser to start the tool.
 
 Interact with the route optimization tool:
